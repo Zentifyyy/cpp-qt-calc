@@ -22,7 +22,7 @@ private slots:
 
     void setText(QString s);
     QString getText();
-    void doCalculating(long num2);
+    void doCalculating(long double num2);
 
     void on_oneButton_pressed();
 

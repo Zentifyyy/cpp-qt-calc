@@ -42,6 +42,7 @@ constexpr auto qt_meta_stringdata_CLASSMainWindowENDCLASS = QtMocHelpers::string
     "s",
     "getText",
     "doCalculating",
+    "long double",
     "num2",
     "on_oneButton_pressed",
     "on_twoButton_pressed",
@@ -85,30 +86,30 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMainWindowENDCLASS[] = {
        3,    1,  147,    2, 0x08,    2 /* Private */,
        5,    0,  150,    2, 0x08,    4 /* Private */,
        6,    1,  151,    2, 0x08,    5 /* Private */,
-       8,    0,  154,    2, 0x08,    7 /* Private */,
-       9,    0,  155,    2, 0x08,    8 /* Private */,
-      10,    0,  156,    2, 0x08,    9 /* Private */,
-      11,    0,  157,    2, 0x08,   10 /* Private */,
-      12,    0,  158,    2, 0x08,   11 /* Private */,
-      13,    0,  159,    2, 0x08,   12 /* Private */,
-      14,    0,  160,    2, 0x08,   13 /* Private */,
-      15,    0,  161,    2, 0x08,   14 /* Private */,
-      16,    0,  162,    2, 0x08,   15 /* Private */,
-      17,    0,  163,    2, 0x08,   16 /* Private */,
-      18,    0,  164,    2, 0x08,   17 /* Private */,
-      19,    0,  165,    2, 0x08,   18 /* Private */,
-      20,    0,  166,    2, 0x08,   19 /* Private */,
-      21,    0,  167,    2, 0x08,   20 /* Private */,
-      22,    0,  168,    2, 0x08,   21 /* Private */,
-      23,    0,  169,    2, 0x08,   22 /* Private */,
-      24,    0,  170,    2, 0x08,   23 /* Private */,
-      25,    0,  171,    2, 0x08,   24 /* Private */,
+       9,    0,  154,    2, 0x08,    7 /* Private */,
+      10,    0,  155,    2, 0x08,    8 /* Private */,
+      11,    0,  156,    2, 0x08,    9 /* Private */,
+      12,    0,  157,    2, 0x08,   10 /* Private */,
+      13,    0,  158,    2, 0x08,   11 /* Private */,
+      14,    0,  159,    2, 0x08,   12 /* Private */,
+      15,    0,  160,    2, 0x08,   13 /* Private */,
+      16,    0,  161,    2, 0x08,   14 /* Private */,
+      17,    0,  162,    2, 0x08,   15 /* Private */,
+      18,    0,  163,    2, 0x08,   16 /* Private */,
+      19,    0,  164,    2, 0x08,   17 /* Private */,
+      20,    0,  165,    2, 0x08,   18 /* Private */,
+      21,    0,  166,    2, 0x08,   19 /* Private */,
+      22,    0,  167,    2, 0x08,   20 /* Private */,
+      23,    0,  168,    2, 0x08,   21 /* Private */,
+      24,    0,  169,    2, 0x08,   22 /* Private */,
+      25,    0,  170,    2, 0x08,   23 /* Private */,
+      26,    0,  171,    2, 0x08,   24 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
     QMetaType::Void, QMetaType::QString,    4,
     QMetaType::QString,
-    QMetaType::Void, QMetaType::Long,    7,
+    QMetaType::Void, 0x80000000 | 7,    8,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -149,7 +150,7 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<QString, std::false_type>,
         // method 'doCalculating'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<long, std::false_type>,
+        QtPrivate::TypeAndForceComplete<long double, std::false_type>,
         // method 'on_oneButton_pressed'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_twoButton_pressed'
@@ -200,7 +201,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 1: _t->setText((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         case 2: { QString _r = _t->getText();
             if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
-        case 3: _t->doCalculating((*reinterpret_cast< std::add_pointer_t<long>>(_a[1]))); break;
+        case 3: _t->doCalculating((*reinterpret_cast< std::add_pointer_t<long double>>(_a[1]))); break;
         case 4: _t->on_oneButton_pressed(); break;
         case 5: _t->on_twoButton_pressed(); break;
         case 6: _t->on_threeButton_pressed(); break;

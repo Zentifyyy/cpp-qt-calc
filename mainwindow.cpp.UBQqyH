@@ -14,11 +14,11 @@ MainWindow::~MainWindow(){
 }
 
 int dots = 0;
-long double num1 = 0;
+long num1 = 0;
 char calc = '_';
 
-void MainWindow::doCalculating(long double num2){
-    double answer = 0;
+void MainWindow::doCalculating(long num2){
+    long double answer = 0;
 
     switch (calc) {
     case '/':
@@ -35,7 +35,9 @@ void MainWindow::doCalculating(long double num2){
         break;
     }
 
-    ui->numberDisplay->setText(QString::number(answer));
+    std::cout << std::to_string(answer) << std::endl;
+
+    ui->numberDisplay->setText(QString::fromStdString(std::to_string(answer)));
 }
 
 QString MainWindow::getText(){
@@ -139,7 +141,7 @@ void MainWindow::on_dotButton_pressed(){
 
 void MainWindow::on_devideButton_pressed(){
     if(num1 == 0){
-        num1 = ui->numberDisplay->text().toDouble();
+        num1 = ui->numberDisplay->text().toLong();
         ui->numberDisplay->setText("0");
         if(calc == '_'){
             calc = '/';
@@ -150,7 +152,7 @@ void MainWindow::on_devideButton_pressed(){
 
 void MainWindow::on_timesButton_pressed(){
     if(num1 == 0){
-        num1 = ui->numberDisplay->text().toDouble();
+        num1 = ui->numberDisplay->text().toLong();
         ui->numberDisplay->setText("0");
         if(calc == '_'){
             calc = '*';
@@ -161,14 +163,14 @@ void MainWindow::on_timesButton_pressed(){
 
 void MainWindow::on_equalsButton_pressed(){
     if(calc != '_' && num1 != 0){
-        doCalculating(ui->numberDisplay->text().toDouble());
+        doCalculating(ui->numberDisplay->text().toLong());
     }
 }
 
 
 void MainWindow::on_minusButton_pressed(){
     if(num1 == 0){
-        num1 = ui->numberDisplay->text().toDouble();
+        num1 = ui->numberDisplay->text().toLong();
         ui->numberDisplay->setText("0");
         if(calc == '_'){
             calc = '-';
@@ -179,7 +181,7 @@ void MainWindow::on_minusButton_pressed(){
 
 void MainWindow::on_plusButton_pressed(){
     if(num1 == 0){
-        num1 = ui->numberDisplay->text().toDouble();
+        num1 = ui->numberDisplay->text().toLong();
         ui->numberDisplay->setText("0");
         if(calc == '_'){
             calc = '+';
