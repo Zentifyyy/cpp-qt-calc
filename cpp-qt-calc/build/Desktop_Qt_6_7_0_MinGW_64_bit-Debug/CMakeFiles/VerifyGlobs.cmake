@@ -41,9 +41,10 @@ endif()
 # _directory_contents at C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/*.cpp")
 set(OLD_GLOB
+  "C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/cpp-qt-calc_autogen/EWIEGA46WW/moc_mainwindow.cpp"
+  "C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/cpp-qt-calc_autogen/mocs_compilation.cpp"
   "C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/cpp-qt-calc/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CompilerIdCXX/CMakeCXXCompilerId.cpp"
-  "C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/cpp-qt-calc/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/cpp-qt-calc_autogen/EWIEGA46WW/moc_mainwindow.cpp"
-  "C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/cpp-qt-calc/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/cpp-qt-calc_autogen/mocs_compilation.cpp"
   "C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/main.cpp"
   "C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/mainwindow.cpp"
   )
@@ -64,8 +65,8 @@ endif()
 # _directory_contents at C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/*.h")
 set(OLD_GLOB
-  "C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/cpp-qt-calc/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/cpp-qt-calc_autogen/include/ui_mainwindow.h"
-  "C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/cpp-qt-calc/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/cpp-qt-calc_autogen/moc_predefs.h"
+  "C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/cpp-qt-calc_autogen/include/ui_mainwindow.h"
+  "C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/cpp-qt-calc_autogen/moc_predefs.h"
   "C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/mainwindow.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
