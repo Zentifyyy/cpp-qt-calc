@@ -1,9 +1,0 @@
-C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/cpp-qt-calc/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/cpp-qt-calc.dir
-C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/cpp-qt-calc/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
-C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/cpp-qt-calc/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/cpp-qt-calc/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
-C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/cpp-qt-calc/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/install.dir
-C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/cpp-qt-calc/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
-C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/cpp-qt-calc/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
-C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/cpp-qt-calc/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/cpp-qt-calc_autogen_timestamp_deps.dir
-C:/Users/alfie/Desktop/Projects/Code/cpp/cpp-qt-calc/cpp-qt-calc/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/cpp-qt-calc_autogen.dir
